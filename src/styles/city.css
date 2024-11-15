@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'CeraPro-MediumItalic';
+  src: url('/src/font/CeraPro-MediumItalic.ttf') format('truetype');
+  font-weight: normal;  
+  font-style: normal;
+}  
+
+
+.city-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px; 
+  color: black; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'CeraPro-MediumItalic', sans-serif;
+}
+
+
+  
+  label {
+    margin-bottom: 10px; 
+  }
+  
+  select {
+    padding: 8px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .city-container {
+        padding: 10px;
+    }
+    label {
+        margin-bottom: 5px; 
+    }
+    select {
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}
